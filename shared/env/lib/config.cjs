@@ -17,5 +17,5 @@ const config = confme(
 );
 
 module.exports = {
-    config,
+    ...config,
 };

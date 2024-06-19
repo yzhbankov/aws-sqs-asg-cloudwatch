@@ -1,6 +1,0 @@
-{
-  "aws_region": ["required", "string"],
-  "aws_sqs_url": ["required", "string"],
-  "aws_sqs_name": ["required", "string"],
-  "delay": ["required", "positive_integer"]
-}

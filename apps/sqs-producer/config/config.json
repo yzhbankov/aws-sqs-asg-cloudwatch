@@ -1,6 +1,0 @@
-{
-  "aws_region": "{{AWS_REGION}}",
-  "aws_sqs_url": "{{AWS_SQS_URL}}",
-  "aws_sqs_name": "{{AWS_SQS_NAME}}",
-  "delay": "{{HANDLING_DELAY}}"
-}

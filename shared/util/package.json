@@ -1,0 +1,21 @@
+{
+  "name": "@aws-sqs-asg-cloudwatch/util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=6.14.10"
+  },
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --ext .mjs,.cjs,.js .",
+    "lint:fix": "eslint --fix --ext .mjs,.cjs,.js .",
+    "clean": "yarn run clean:node-modules",
+    "clean:node-modules": "rimraf node_modules"
+  },
+  "dependencies": {
+    "uuid": "^10.0.0"
+  },
+  "license": "UNLICENSED"
+}

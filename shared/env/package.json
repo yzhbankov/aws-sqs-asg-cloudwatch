@@ -1,0 +1,23 @@
+{
+  "name": "@aws-sqs-asg-cloudwatch/env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=6.14.10"
+  },
+  "scripts": {
+    "lint": "eslint --ext .mjs,.cjs,.js .",
+    "lint:fix": "eslint --fix --ext .mjs,.cjs,.js .",
+    "clean": "yarn run clean:node-modules",
+    "clean:node-modules": "rimraf node_modules"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv-defaults": "^2.0.1",
+    "livr": "^2.7.1",
+    "livr-extra-rules": "^1.3.2"
+  },
+  "license": "UNLICENSED"
+}

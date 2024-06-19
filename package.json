@@ -20,7 +20,9 @@
   },
   "workspaces": [
     "apps/sqs-consumer",
-    "apps/sqs-producer"
+    "apps/sqs-producer",
+    "shared/env",
+    "shared/util"
   ],
   "private": true,
   "dependencies": {},

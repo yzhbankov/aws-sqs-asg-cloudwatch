@@ -1,10 +1,10 @@
 import AWS from 'aws-sdk';
-import * as ConfigContainer from './lib/config.cjs';
-import { UID } from './lib/utils/index.mjs';
+import ConfigContainer from '@aws-sqs-asg-cloudwatch/env';
+import { UID } from '@aws-sqs-asg-cloudwatch/util';
 
-const AWS_REGION = ConfigContainer.config.aws_region;
-const SQS_URL = ConfigContainer.config.aws_sqs_url;
-const SQS_NAME = ConfigContainer.config.aws_sqs_name;
+const AWS_REGION = ConfigContainer.aws_region;
+const SQS_URL = ConfigContainer.aws_sqs_url;
+const SQS_NAME = ConfigContainer.aws_sqs_name;
 
 // Configure AWS SDK
 AWS.config.update({
