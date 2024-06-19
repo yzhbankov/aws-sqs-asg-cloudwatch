@@ -19,7 +19,8 @@
     "url": "https://github.com/yzhbankov/aws-sqs-asg-cloudwatch.git#README"
   },
   "workspaces": [
-    "apps/sqs-consumer"
+    "apps/sqs-consumer",
+    "apps/sqs-producer"
   ],
   "private": true,
   "dependencies": {},
